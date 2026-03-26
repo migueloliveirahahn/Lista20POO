@@ -152,3 +152,235 @@ Requisitos:
 - Atributos privados como valor, data e descrição.
 - Crie o método `processarPagamento()`.
 - Cada classe deve exibir uma forma diferente de pagamento.
+
+---
+
+## Exercício 9 – Personagens de Jogo
+
+Crie um sistema com as classes:
+
+- `Personagem`
+- `Guerreiro`
+- `Mago`
+- `Arqueiro`
+- `Paladino`
+
+Requisitos:
+
+- Todas as classes com construtores.
+- Crie atributos privados como nome, vida e nível.
+- Crie o método `atacar()`.
+- Cada personagem deve atacar de forma diferente.
+- Crie também o método `defender()`.
+
+---
+
+## Exercício 10 – Sistema de Transporte
+
+Crie um sistema com as classes:
+
+- `Transporte`
+- `Taxi`
+- `Uber`
+- `Onibus`
+- `Metro`
+
+Requisitos:
+
+- Todas as classes devem possuir construtores.
+- Crie atributos privados como capacidade, empresa e tarifaBase.
+- Crie o método `calcularTarifa()`.
+- Cada transporte deve calcular a tarifa de forma diferente.
+
+---
+
+## Exercício 11 – Sistema de Dispositivos Eletrônicos
+
+Crie um sistema com as classes:
+
+- `Dispositivo`
+- `Computador`
+- `Smartphone`
+- `Tablet`
+- `Televisao`
+
+Requisitos:
+
+- Todas as classes com construtores.
+- Use atributos privados.
+- Crie métodos como `ligar()`, `desligar()` e `executarFuncao()`.
+- Cada dispositivo deve responder de forma diferente.
+
+---
+
+## Exercício 12 – Sistema de Profissões
+
+Crie um sistema com as classes:
+
+- `Profissao`
+- `Medico`
+- `Professor`
+- `Advogado`
+- `Engenheiro`
+
+Requisitos:
+
+- Todas as classes devem possuir construtores.
+- Crie atributos privados como nome, área e salário.
+- Crie o método `executarTrabalho()`.
+- Cada profissão deve sobrescrever esse método.
+
+---
+
+## Exercício 13 – Sistema de Notificações
+
+Crie um sistema com as classes:
+
+- `Notificacao`
+- `Email`
+- `SMS`
+- `WhatsApp`
+- `Push`
+
+Requisitos:
+
+- Todas as classes com construtores.
+- Crie atributos privados como destinatário, mensagem e data.
+- Crie o método `enviar()`.
+- Cada tipo deve enviar de uma forma diferente.
+
+---
+
+## Exercício 14 – Sistema de Mídia
+
+Crie um sistema com as classes:
+
+- `Midia`
+- `Musica`
+- `Filme`
+- `Podcast`
+- `Audiolivro`
+
+Requisitos:
+
+- Todas as classes com construtores.
+- Atributos privados como título, duração e autor.
+- Crie o método `reproduzir()`.
+- Cada mídia deve exibir uma mensagem diferente.
+
+---
+
+## Exercício 15 – Sistema de Restaurante
+
+Crie um sistema com as classes:
+
+- `ItemCardapio`
+- `Pizza`
+- `Hamburguer`
+- `Bebida`
+- `Sobremesa`
+
+Requisitos:
+
+- Todas as classes com construtores.
+- Crie atributos privados como nome, preço e descrição.
+- Crie o método `preparar()`.
+- Cada item deve sobrescrever esse método.
+- Crie também `calcularPreco()`.
+
+---
+
+## Exercício 16 – Sistema Hospitalar
+
+Crie um sistema com as classes:
+
+- `Pessoa`
+- `Paciente`
+- `Medico`
+- `Enfermeiro`
+- `Consulta`
+
+Requisitos:
+
+- Todas as classes devem possuir construtores.
+- Atributos privados com getters e setters.
+- Crie métodos como `realizarAtendimento()`, `exibirDados()` e `agendarConsulta()`.
+- Utilize polimorfismo entre os profissionais.
+
+---
+
+## Exercício 17 – Sistema de Biblioteca
+
+Crie um sistema com as classes:
+
+- `ItemBiblioteca`
+- `Livro`
+- `Revista`
+- `Jornal`
+- `DVD`
+
+Requisitos:
+
+- Todas as classes com construtores.
+- Crie atributos privados como título, código e disponibilidade.
+- Crie o método `emprestar()`.
+- Cada item pode ter regra específica.
+- Crie também `devolver()`.
+
+---
+
+## Exercício 18 – Sistema de Imóveis
+
+Crie um sistema com as classes:
+
+- `Imovel`
+- `Casa`
+- `Apartamento`
+- `Terreno`
+- `SalaComercial`
+
+Requisitos:
+
+- Todas as classes com construtores.
+- Atributos privados como endereço, preço e metragem.
+- Crie o método `calcularImposto()`.
+- Cada imóvel deve ter regra própria.
+
+---
+
+## Exercício 19 – Sistema de Cursos
+
+Crie um sistema com as classes:
+
+- `Curso`
+- `CursoPresencial`
+- `CursoOnline`
+- `CursoTecnico`
+- `CursoLivre`
+
+Requisitos:
+
+- Todas as classes devem possuir construtores.
+- Atributos privados como nome, cargaHoraria e valor.
+- Crie o método `exibirInformacoes()`.
+- Crie também `calcularMensalidade()` com comportamentos diferentes.
+
+---
+
+## Exercício 20 – Sistema de Zoológico
+
+Crie um sistema com as classes:
+
+- `Animal`
+- `Leao`
+- `Macaco`
+- `Elefante`
+- `Papagaio`
+
+Requisitos:
+
+- Todas as classes com construtores.
+- Atributos privados como nome, idade e peso.
+- Crie métodos `emitirSom()`, `alimentar()` e `movimentar()`.
+- Cada animal deve apresentar comportamento próprio.
+- Teste o polimorfismo com um vetor de `Animal`.
